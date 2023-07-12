@@ -1,10 +1,74 @@
+
 /*Formatação do header*/
 
+
 header {
-    background-color: #666;
+    background-color: #070400;
     padding: 30px;
     text-align: center;
     font-size: 35px;
     color: white;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+header img{
+    background-image: url("/imagens/Logo.PNG");
+    background-repeat: no-repeat;
+    background-size: 150px;
+    width: auto;
+    height: auto;
+}
+
+/*article{
+    background-color: #408503;
+    padding: 30px;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}*/
+
+h1{
+    margin-bottom: 0;
   }
 
+p{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 30px;
+    text-align: left;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #408503;
+    border-width: 10px;
+  }
+
+
+  
+  .coluna {
+  float: left;
+}
+
+/* Colunas da esquerda e direita */
+.coluna.lateral {
+  width: 25%;
+}
+
+/* coluna principal */
+.coluna.central {
+  width: 50%;
+}
+
+.fundotabela{
+    background-color: #408503;
+    padding: 30px;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
