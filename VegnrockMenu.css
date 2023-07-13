@@ -33,7 +33,7 @@ header p{
     
 body{
     background-color: #07040090;
-    background-image: url("/imagens/BackGroundBody.png");
+    background-image: url("imagens/BackGroundBody.png");
     background-position: center;
 }
 
